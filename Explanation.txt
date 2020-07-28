@@ -1,0 +1,47 @@
+Ram found a magic notepad,
+Initially on a notepad only one character 'A' is present. 
+Ram can perform two operations on this notepad for each step:
+    Copy All: You can copy all the characters present on the notepad 
+    Paste: You can paste the characters which are copied last time.
+ Given a number n. Ram have to get exactly n 'A' on the notepad by performing the minimum number of steps permitted.
+Output the minimum number of steps to get n 'A'.
+Constraints:(partial copy is not allowed).
+
+Input description:
+n as a integer (1<n<1000)
+
+Output description:
+the minimum number of steps to get n 'A'.
+
+Sample input:
+3
+Sample output:
+3
+Explanation:
+Intitally, we have one character 'A'.
+In step 1, we use Copy All operation.
+In step 2, we use Paste operation to get 'AA'.
+In step 3, we use Paste operation to get 'AAA'.
+Sample input:
+7
+
+Sample output:
+7
+
+Sample input:
+21
+
+Sample output:
+10
+
+Sample input:
+35
+
+Sample output:
+12
+
+Sample input:
+207
+
+Sample output:
+29
